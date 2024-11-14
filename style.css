@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #228E9D;
+}
+.nav {
+    display: flex;
+    align-items: center;   
+}
+.services {
+    display: flex;
+    align-items: center;
+}
+.company {
+    display: flex;
+    align-items: center; 
+}
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: #FCE3C3;
+}
