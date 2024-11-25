@@ -1,45 +1,149 @@
+@import "normalize.css";
+@import "fonts.css";
+
+.body {
+    background: #228f9d2d;
+    width: 100%;
+    height: 100%;
+    min-width: 997px;
+
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 998px;
+    padding: 0 25px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .header {
+    background-color: #228E9D;
+    padding: 22px;
+}
+
+.header__wrapper {
     display: flex;
     align-items: center;
-    background-color: #228E9D;
 }
+
+.logo {}
+
+.nav_wrapper {
+    margin-left: auto;
+}
+
 .nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
     display: flex;
     align-items: center;
     text-align: center;
-    margin-left: auto;
     gap: 60px;
-    padding-left: 0%;
+    color: #f0dfdf;
 }
+
 .logout {
-  margin-left: auto;
-  background-color: transparent;
-  border: none;
-  color: #f0dfdf;
+    margin-left: 107px;
+    background-color: transparent;
+    border: none;
+    color: #f0dfdf;
 }
+
+.main {
+    max-height: 100vh;
+    flex-grow: 1;
+    background-color: white;
+    margin: 0 auto;
+    max-width: 998px;
+}
+
 .services {
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
+    font-size: 48px;
+    
 }
+
 .company {
-    display: flex;
+    list-style: none;
+    display: grid;
+    grid-auto-flow: column;
     margin: auto;
     padding: 20px 0;
     width: 948px;
+    gap: 15px;
+}
+
+.card1 {
+    border-radius: 10px;
+    padding: 0%;
+    width: 229px;
+    height: 412px;
+    padding: auto;
+    text-align: center;
+    margin: auto;
+}
+
+.card2 {
+    border-radius: 10px;
+    width: 229px;
+    height: 412px;
+    padding: auto;
+    text-align: center;
+    margin: auto;
+}
+.card3{
+    border-radius: 10px;
+    width: 229px;
+    height: 412px;
+    padding: auto;
+    text-align: center;
+    margin: auto;
+}
+.namecard {
+    font-size: 20px;
+}
+.text {
+    font-size: 14px;
+    line-height: auto;
+}
+
+.button_card {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    width: 267px;
+    height: 44px;
+    background: #E78E24;
+text-transform: uppercase;
+    
+
 }
 .footer {
     display: flex;
-    display: block; 
+    display: block;
     align-items: center;
     text-align: center;
     background-color: #FCE3C3;
 }
+
 .copy {
     margin: 0;
     padding: 10px 0;
-    color:#000000;
+    color: #000000;
     font-size: 16px;
     font-weight: 400;
-  }
+}

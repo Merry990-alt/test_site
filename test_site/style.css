@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #228E9D;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    gap: 60px;
+    padding-left: 0%;
+}
+.logout {
+  margin-left: auto;
+  background-color: transparent;
+  border: none;
+  color: #f0dfdf;
+}
+.services {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.company {
+    display: flex;
+    margin: auto;
+    padding: 20px 0;
+    width: 948px;
+}
+.footer {
+    display: flex;
+    display: block; 
+    align-items: center;
+    text-align: center;
+    background-color: #FCE3C3;
+}
+.copy {
+    margin: 0;
+    padding: 10px 0;
+    color:#000000;
+    font-size: 16px;
+    font-weight: 400;
+  }
